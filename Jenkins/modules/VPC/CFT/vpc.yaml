@@ -1,9 +1,0 @@
-Resources:
-  hitechvpc:
-    Type: AWS::EC2::VPC
-    Properties: 
-      CidrBlock: 10.10.0.0/16
-      InstanceTenancy: default
-      Tags:
-        -  Key: Name
-           Value: Hitechb42-vpc
